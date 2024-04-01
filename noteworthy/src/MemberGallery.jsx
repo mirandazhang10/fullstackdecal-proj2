@@ -3,7 +3,6 @@ import profilesData from "./assets/profiles.json"
 import Member from "./Member"
 
 const MemberGallery = () => {
-    
     return (
         <div className="gallery">
             {profilesData.map(profile => (

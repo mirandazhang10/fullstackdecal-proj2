@@ -12,7 +12,7 @@ const Members = () => {
 
     return (
         <>
-            <HeaderImage className="h-[600px] overflow-hidden" imagePath={groupImage} titleComponent={<Title />} />
+            <HeaderImage className="h-full overflow-hidden" imagePath={groupImage} titleComponent={<Title />} />
             <div className="mx-40 my-20">
                 <MemberGallery />
             </div>
