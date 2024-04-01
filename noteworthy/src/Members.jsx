@@ -1,6 +1,7 @@
 import Footer from "./Footer";
 import HeaderImage from "./HeaderImage";
 import groupImage from "./assets/imgs/group/group1-cropped.jpg"
+import MemberGallery from "./MemberGallery";
 
 const Members = () => {
     const Title = () => {
@@ -13,7 +14,7 @@ const Members = () => {
         <>
             <HeaderImage className="h-[600px] overflow-hidden" imagePath={groupImage} titleComponent={<Title />} />
             <div className="mx-40 my-20">
-
+                <MemberGallery />
             </div>
             <Footer />
         </>

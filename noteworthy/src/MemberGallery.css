@@ -8,25 +8,63 @@
 .gallery-item {
     width: calc(33.33% - 10px); /* Set width for each column with margin between */
     margin-bottom: 20px;
+    height: 13em;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .gallery-item img {
-    width: 100%; /* Ensure images fill the available width */
-    height: auto; /* Maintain aspect ratio */
+    height: 100%; /* Ensure images fill the available width */
+    /* height: auto; Maintain aspect ratio */
 }
 
-@media screen and (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
+
+/* Gallery View CSS */
+
+/* Applied to body; view is restricted to the current screen view */ 
+.view-mode {
+    height: 100%;
+    overflow: hidden;
 }
 
-@media screen and (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
+/* Transparent background */
+#view-bg {
+    /* display: flex;
+    align-items: center; */
+    /* object-fit: contain; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+    background-color: #000000d0;
+    transition: visibility 0s, opacity 0.15s ease-out;
+}
+
+#view-bg:hover {
+    cursor: pointer;
+}
+
+.view-bg-none {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.view-bg-clicked {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* Applied to imgs */
+.clicked-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 0 0;
+    height: 100vh;
 }
 
 /* General Animations */
