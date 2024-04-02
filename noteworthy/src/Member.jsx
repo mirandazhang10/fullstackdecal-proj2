@@ -48,12 +48,12 @@ const Member = ({profile}) => {
 
     return (
         <div className="gallery-item relative">
-            <div className="gallery-overlay bg-trueblack/50"></div>
             <img src={memberMap.get(profile.image)} alt={profile.name} />
+            <div className="gallery-overlay bg-trueblack/50"></div>
             <div className="gallery-description text-white font-sans">
-                <h2>{profile.name}</h2>
-                {profile.position && <h3>{profile.position}</h3>}
-                <h3>{profile.voicePart}</h3>
+                <h2 className="text-2xl"><b>{profile.name}</b></h2>
+                {profile.position && <h3 className="text-lg"><b>{profile.position}</b></h3>}
+                <h3 className="text-lg">{profile.voicePart}</h3>
             </div>
             
         </div>
