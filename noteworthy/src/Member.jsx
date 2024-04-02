@@ -4,7 +4,7 @@ const Member = ({profile, onClick}) => {
     // var imagePath = fullImagePath + profile.image;
     const handleClick = (event) => {
         event.stopPropagation();
-        onClick(profile.name);
+        onClick(profile.id);
     }
 
     return (

@@ -22,7 +22,7 @@ function Layout() {
                     <div className="me-auto flex justify-end text-lg">
                         <HashLink className="hover:text-orange" smooth to="/#about">About</HashLink>
                         <Link className="hover:text-pink pl-10" to="/members">People of Note</Link>
-                        <Link className="hover:text-green pl-10" to="/debug">Hire Us</Link>
+                        <Link className="hover:text-green pl-10" to="/">Hire Us</Link>
                         <Link className="hover:text-blue pl-10" to="/">Auditions</Link>
                     </div>
                 </div>

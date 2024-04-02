@@ -10,18 +10,33 @@ const MemberGallery = () => {
 
     useEffect(() => {
         if (clickedMember !== null) {
-            const clickedProfile = profilesData.find(profile => profile.name === clickedMember);
+            const clickedProfile = profilesData.find(profile => profile.id === clickedMember);
             setProfile(clickedProfile);
         }
     }, [clickedMember]);
 
     const openProfile = (memberID) => {
         setClickedMember(memberID);
+        document.body.classList.toggle("view-mode");
+        document.getElementById("view-bg").classList.toggle("view-bg-none");
+        document.getElementById("view-bg").classList.toggle("view-bg-clicked");
     }
 
     const closeProfile = () => {
         setProfile(null);
+        setClickedMember(null);
+        document.body.classList.toggle("view-mode");
+        document.getElementById("view-bg").classList.toggle("view-bg-none");
+        document.getElementById("view-bg").classList.toggle("view-bg-clicked");
     }
+
+    const switchProfile = (newProfileId) => {
+        console.log(newProfileId);
+        const newProfile = profilesData.find(profile => profile.id === newProfileId);
+        console.log(newProfile);
+        setProfile(newProfile);
+    };
+    
 
     return (
         <div className="gallery">
@@ -33,7 +48,8 @@ const MemberGallery = () => {
                 />
             ))}
 
-            {profile && <ProfileViewer profile={profile} onClose={closeProfile} />}
+            {profile && <ProfileViewer profile={profile} onClose={closeProfile} onSwitchProfile={switchProfile} />}
+            <div id="view-bg" className="view-bg-none z-20"></div>
         </div>
     );
 };

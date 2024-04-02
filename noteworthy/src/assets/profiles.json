@@ -1,5 +1,6 @@
 [
     {
+        "id": 0,
         "name":"Eddie Cekici",
         "pronouns":"He/Him",
         "voicePart":"Bass and Vocal Percussion",
@@ -12,6 +13,7 @@
         "image": "eddie.jpg"
     },
     {
+        "id": 1,
         "name":"Bhaskar Roberts",
         "pronouns":"He/Him",
         "voicePart":"Tenor 2",
@@ -24,6 +26,7 @@
         "image": "bhaskar.jpg"
     },
     {
+        "id": 2,
         "name":"Ellington Chen",
         "pronouns":"he/him",
         "voicePart":"Baritone",
@@ -36,6 +39,7 @@
         "image": "ellington.jpg"
     },
     {
+        "id": 3,
         "name":"Athena Liu",
         "pronouns":"they/he",
         "voicePart":"Tenor 1",
@@ -48,6 +52,7 @@
         "image": "athena.jpg"
     },
     {
+        "id": 4,
         "name":"Tom Guan",
         "pronouns":"he/him",
         "voicePart":"Baritone",
@@ -60,6 +65,7 @@
         "image": "tom.jpg"
     },
     {
+        "id": 5,
         "name":"Maya Rotenberg",
         "pronouns":"she/her",
         "voicePart":"Tenor 1",
@@ -71,6 +77,7 @@
         "image": "maya.jpg"
     },
     {
+        "id": 6,
         "name":"Amanda Sakimura",
         "pronouns":"she/her",
         "voicePart":"Tenor 1",
@@ -83,6 +90,7 @@
         "image": "dell.jpg"
     },
     {
+        "id": 7,
         "name":"Alex Pease",
         "pronouns":"",
         "voicePart":"Bass",
@@ -95,6 +103,7 @@
         "image": "alex.jpg"
     },
     {
+        "id": 8,
         "name":"Justin Wong",
         "pronouns":"He/Him",
         "voicePart":"Baritone",
@@ -106,6 +115,7 @@
         "image": "justin.jpg"
     },
     {
+        "id": 9,
         "name":"Jerry Hou",
         "pronouns":"he/him",
         "voicePart":"Baritone",
@@ -117,6 +127,7 @@
         "image": "jerry.jpg"
     },
     {
+        "id": 10,
         "name":"Stephanus Yang",
         "pronouns":"he/him",
         "voicePart":"Tenor 2",
@@ -128,6 +139,7 @@
         "image": "stephanus.jpg"
     },
     {
+        "id": 11,
         "name":"Kian Chou",
         "pronouns":"he/him",
         "voicePart":"Bass",
@@ -139,6 +151,7 @@
         "image": "kian.jpg"
     },
     {
+        "id": 12,
         "name":"Andrew Tran",
         "pronouns":"he/him",
         "voicePart":"Tenor 2",
@@ -150,6 +163,7 @@
         "image": "andrew.jpg"
     },
     {
+        "id": 13,
         "name":"Ethan Jang",
         "pronouns":"He/Him/His",
         "voicePart":"Bass",
@@ -161,6 +175,7 @@
         "image": "ethan.jpg"
     },
     {
+        "id": 14,
         "name":"Madlen Jalalyan",
         "pronouns":"she/her",
         "voicePart":"Tenor 1",
@@ -172,6 +187,7 @@
         "image": "madlen.jpg"
     },
     {
+        "id": 15,
         "name":"Christopher Yuan",
         "pronouns":"He/him",
         "voicePart":"Tenor 2",
@@ -183,6 +199,7 @@
         "image": "chris.jpg"
     },
     {
+        "id": 16,
         "name":"Caitlyn Liao",
         "voicePart":"Tenor 1",
         "major":"Political Economy",
@@ -193,6 +210,7 @@
         "image":"caitlyn.jpg"
     },
     {
+        "id": 17,
         "name":"Jessica Yu",
         "voicePart":"Tenor 1",
         "major":"Environmental Economics, Policy",

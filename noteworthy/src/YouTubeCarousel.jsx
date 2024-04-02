@@ -13,7 +13,7 @@ function ContentCarousel() {
     <Carousel infiniteLoop="true">
       {videos.map(videoId => (
           <div key={videoId}>
-            <YouTubeEmbed url={videoId} height={600} />
+            <YouTubeEmbed url={videoId} height={500} />
           </div>
       ))}
     </Carousel>

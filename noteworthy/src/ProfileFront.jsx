@@ -10,7 +10,7 @@ const ProfileFront = ({className, profile}) => {
                         alt={profile.name}
                     />
                 </div> 
-                <div className='flex flex-col items-start text-left max-w-80 mt-3'>
+                <div className='flex flex-col items-start text-left max-w-80 min-w-1/2 mt-3'>
                     <h2 className="text-xl"><b>{profile.name}</b></h2>
                     <h3 className="text-md"><b>{profile.position}</b></h3>
                     <p className="text-sm"><b>Voice Part:</b> {profile.voicePart}</p>

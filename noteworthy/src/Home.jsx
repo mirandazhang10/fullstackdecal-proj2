@@ -12,7 +12,7 @@ import Footer from "./Footer";
 const Home = () => {
     const Title = () => {
         return (
-            <div className="flex flex-col items-center p-60 animate-fadein">
+            <div className="flex flex-col items-center p-40 animate-fadein">
                 <img
                     src={nwLogo}
                     width="150"
@@ -68,8 +68,8 @@ const Home = () => {
             <HeaderImage className="h-screen overflow-hidden" imagePath={splash} titleComponent={<Title />} />
             {/* About Section */}
             <a id='about'></a>
-            <div className="flex flex-center p-20 mx-56 mt-10">
-                <div className="relative w-[2500px] min-h-[450px] overflow-hidden rounded-lg drop-shadow-md">
+            <div className="flex flex-center p-20 mx-10 mt-10">
+                <div className="relative w-[3500px] min-h-[450px] overflow-hidden rounded-lg drop-shadow-md">
                     <img 
                         src={about}
                         alt="Noteworthy group photo"
@@ -90,13 +90,13 @@ const Home = () => {
                 </div>
             </div>
             
-            <div className="flex flex-center justify-center my-10 mx-32">
+            <div className="flex flex-center justify-center my-5 mx-24">
                 <Block textColor="text-blue" bgColor="bg-blue" title="Hire Us" description={<HireUsDescription />} bodyComponent={<HireUsImage />}/>
                 <Block textColor="text-pink" bgColor="bg-pink" title="Events" description={<EventsDescription />} bodyComponent={<ContentCarousel />}/>
-                <Block textColor="text-green" bgColor="bg-green" title="Follow Us" bodyComponent={<InstagramEmbed url="https://www.instagram.com/cal_noteworthy/" width={400} />}/>
+                <Block textColor="text-green" bgColor="bg-green" title="Follow Us" bodyComponent={<InstagramEmbed url="https://www.instagram.com/cal_noteworthy/" width={338} />}/>
             </div>
 
-            <div className="flex flex-col justify-center items-center p-16 mx-56">
+            <div className="flex flex-col justify-center items-center pt-10 pl-16 pr-16 pb-16 mx-32">
                 <h3 className="text-3xl text-orange">Our Favorite Videos</h3>
                 <div className="w-20 h-0.5 mt-1 mb-8 bg-orange"></div>
                 <YouTubeCarousel />
