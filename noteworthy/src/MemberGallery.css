@@ -160,6 +160,7 @@
     bottom: 10px;
     right: 15px;
     opacity: 0.5;
+    z-index: 40;
 }
 
 .flip-button:hover {
@@ -169,11 +170,11 @@
 
 /* Arrows */
 .arrow {
-    border: solid #333;
+    border: solid white;
     border-width: 0 4px 4px 0;
     display: inline-block;
     padding: 6px;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .right {
@@ -197,15 +198,18 @@
     white-space: pre-line;
 }
 
+.back-container {
+    height: calc(20%-20px);
+    overflow-y: auto;
+}
+
 .back-information {
-    margin-left: 40px;
-    margin-right: 40px;
+    padding: 30px 80px 80px 80px;
     top: 80px;
-    max-height: 80%;
-    column-count: 3;
+    /* column-count: 3;
     column-gap: 2em;
     column-width: 12em;
-    font-size: 0.65em;
+    font-size: 0.65em; */
 }
 
 .profile-image {
